@@ -35,7 +35,7 @@ With `var-file`, you avoid running terraform with long list of key-value pairs (
 
 Terraform doesn't support [Interpolated variables in terraform backend config](https://github.com/hashicorp/terraform/pull/12067), normally you write a seperate script to define a backend storage name for different environments, but I recommend to hard code it.
 
-* [Remote Backend - AWS S3](aws/README.me#manage-s3-backend-for-tfstate-files)
+* [Remote Backend - AWS S3](aws/README.md#manage-s3-backend-for-tfstate-files)
 * [Remote Backend - Azure Blob Storage](azure/README.md#manage-blob-storage-backend-for-tfstate-files)
 
 
@@ -52,7 +52,7 @@ Normally we have several layers to manage terraform resources, such as network, 
 >Notes: in Terraform v0.12+, you need add extra `outputs` to reference the attributes, otherwise you will get error message of [Unsupported attribute](https://github.com/hashicorp/terraform/issues/21442)
 
 * [Retrieve state meta data from a remote backend - AWS](aws/README.md#retrieve-state-meta-data-from-a-remote-backend)
-* Remote Backend - Azure 
+* [Retrieve state meta data from a remote backend - Azure](azure/README.md#retrieve-state-meta-data-from-a-remote-backend)
 
 
 
